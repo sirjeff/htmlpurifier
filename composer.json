@@ -1,5 +1,5 @@
 {
-    "name": "omi/htmlpurifier",
+    "name": "sirjeff/htmlpurifier",
     "description": "Custom HTMLPurifier with modifications.",
     "type": "library",
     "keywords": ["html"],
