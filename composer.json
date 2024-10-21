@@ -1,0 +1,25 @@
+{
+    "name": "omi/htmlpurifier",
+    "description": "Custom HTMLPurifier with modifications.",
+    "type": "library",
+    "keywords": ["html"],
+    "homepage": "https://github.com/sirjeff/htmlpurifier/",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Edward Z. Yang",
+            "email": "admin@htmlpurifier.org",
+            "homepage": "http://ezyang.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "simpletest/simpletest": "^1.1"
+    },
+    "autoload": {
+        "psr-0": { "HTMLPurifier": "library/" },
+        "files": ["library/HTMLPurifier.composer.php"]
+    }
+}
